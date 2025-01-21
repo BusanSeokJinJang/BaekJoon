@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+    int a,b;
+    while(scanf("%d %d", &a, &b)!=EOF) {
+        printf("%d\n", a+b);
+    }
+}
+
+/*EOF는 END OF FILE의 약자로 -1의 값을 지녀
+  별도의 조건이 없어도 프로그램이 종료되도록 하는 명령어입니다.
+  리눅스/MAC OS는 CTRL+D, WINDOW는 CTRL+Z를 입력하면 EOF가 작동되어 프로그램이 종료됩니다*/
